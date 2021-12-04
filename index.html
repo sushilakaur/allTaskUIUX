@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All Task</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./nav.css">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    </head>
+    <body>
+        <div class="banner"> 
+            <img class="banner_bg" src="images/website1-03.png"/>
+
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <a class="navbar-brand" href="#"><h3><img src="./images/logo-07.png" class="logo">  All Task</h3></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" 
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./DAILY PLANNER/plannerpage.html">ToDos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./ATTENDANCE MANAGER/attendance.html">Attendance</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./EXPENSE MANAGER/expense.html">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./ABOUT US/about.html">About</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+               
+        
+        <div class="header container ">
+                <h1 class="ml9">
+                    <span class="text-wrapper">
+                      <span class="letters">Hey There!</span>
+                    </span>
+                  </h1>
+                <p>
+                    Struggling with managing expenses, attendance and setting up your college schedule? 
+                    Too much apps to handle all these tasks? Don't worry! Here's a platform where a student 
+                    (or basically college student) will find all basic necessities under one roof, 
+                    one doesn't need to switch between different apps to get to  their daily 
+                    requirements.
+                </p>
+        </div>
+        </div>
+        <section class="section2" >
+            <div class="planner row" >
+                <img src="images\planner-07.png" class="col-lg-4" data-aos="fade-up" data-aos-duration="2000"> 
+                <div class="txt planner-text col-lg-5 col-sm-10" data-aos="fade-up" data-aos-duration="2000">
+                    <h1>Daily Planner</h1>
+                    <p> Boost your productivity with an easy-to-use, multitasking day planner app that gives 
+                        your life the organization you’ve been searching for! Start planning you day and get
+                        things done before time!<p> 
+                        <a href="../DAILY PLANNER/plannerpage.html">
+                            <button type="button" class="start">
+                            KNOW MORE!
+                            </button>   
+                        </a>
+                </div>  
+            </div>
+            <div class="attendance row" >                    
+                <img src="images\attendance-07.png"  class="phone" data-aos="fade-up" data-aos-duration="2000">  
+                <div class="txt attendance-text col-lg-5 col-sm-10" data-aos="fade-up" data-aos-duration="2000">
+                    <h1>Attendance Tracker</h1>
+                    <p> With every college insisting on completing atleast 75% of attendance, students are finding it 
+                        increasingly difficult to keep track of their attendance record. Use this simple 
+                        user-friendly platform to keep track of your attendance and know it's percentage 
+                        to avoid falling short of it!  
+                    </p>
+                        <a href="../ATTENDANCE MANAGER/attendance.html">
+                            <button type="button" class="start">
+                            KNOW MORE!
+                            </button>   
+                        </a>  
+                </div>                 
+                <img src="images\attendance-07.png"  class="col-lg-4 desk" data-aos="fade-up" data-aos-duration="2000">
+            </div>
+            <div class="finance row" >    
+                <img src="images\finance-07.png"  class="col-lg-4 " data-aos="fade-up" data-aos-duration="2000"> 
+                <div class="txt finance-text col-lg-5 col-sm-10" data-aos="fade-up" data-aos-duration="2000">
+                    <h1>Finance Manager</h1>
+                    <p> Keeping accurate records of personal expenses is hugely important for college going
+                        students. Knowing what you spend will help you to Create a monthly budget, 
+                        figure out ways to cut back on your spending, know where you're spending more than 
+                        you actually think you are and create a savings plan for putting money away every month
+                    </p>        
+                    <a href="../EXPENSE MANAGER/expense.html">
+                        <button type="button" class="start">
+                        KNOW MORE!
+                        </button>   
+                    </a>
+                </div>
+            </div>               
+        </section>
+        
+        <div class="footer" >
+          <h1 data-aos="fade-up" data-aos-duration="2000">CONTACT US</h1>
+          <form action="./thank.html" class="container" data-aos="fade-up" data-aos-duration="2000">        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="msg"><b>Your Message</b></label>
+            <input type="text" placeholder="suggestions/get help" name="msg" > 
+        
+            <button type="submit" class="btn">SUBMIT</button>
+          </form>  
+        </div>
+        
+
+        <script >
+            const nav = document.querySelector(".navbar");
+
+            window.onscroll = function () {
+            var top = window.scrollY;
+            console.log(top);
+            if (top >= 145) {
+                nav.classList.add("activee");
+            } else {
+                nav.classList.remove("activee");
+            }
+            };
+
+            var textWrapper = document.querySelector('.ml9 .letters');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            anime.timeline({loop: true})
+            .add({
+                targets: '.ml9 .letter',
+                scale: [0, 1],
+                duration: 1500,
+                elasticity: 600,
+                delay: (el, i) => 45 * (i+1)
+            }).add({
+                targets: '.ml9',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+        </script>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+         <!-- bootstrap js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
