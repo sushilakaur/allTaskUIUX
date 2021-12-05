@@ -46,4 +46,14 @@ section ul {
   list-style: none;
   padding-inline-start: 0px;
   padding: 3vh 2vw;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1020px) {
+  section img {
+    height: 50vh;
+    width: auto;
+    margin: auto;
+  }
 }

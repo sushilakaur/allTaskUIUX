@@ -1,38 +1,4 @@
 console.log("Hello! ");
-
-// const nav = document.querySelector(".nav");
-
-// console.log(nav);
-
-// window.onscroll = function () {
-//   var top = window.scrollY;
-//   console.log(top);
-//   if (top >= 40) {
-//     nav.classList.add("active");
-//   } else {
-//     nav.classList.remove("active");
-//   }
-// };
-//select
-
-//click and strike
-// var click= document.querySelectorAll(".todo_list li");
-// var selected=false;
-
-// for(i=0;i<click.length;i++){
-//     click[i].addEventListener("click",function(){
-//         if(selected){
-//             this.style.color="grey";
-//             this.style.textDecoration="line-through";
-//         }
-//         else{
-//             this.style.color="black";
-//             this.style.textDecoration="none";
-//         }
-//        selected=!selected;
-//     });
-// }
-
 //click and strike
 $("#lists").on("click", "li", function(){
     $(this).toggleClass("completed");

@@ -8,24 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.banner button {
-  background-color: #f7f9f9;
-  color: #086970;
-  border-radius: 30px !important;
-  border: none;
-  font-weight: bold;
-  transition: ease-in;
-}
-
-.banner button:hover {
-  background-color: #f7f9f9;
-  color: #086970;
-  border-width: 10px;
-  border-color: #f7f9f9;
-  box-shadow: 0 3px 15px 0 rgba(15, 15, 15, 0.158),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .banner_bg {
   position: absolute;
   margin-top: 0%;
