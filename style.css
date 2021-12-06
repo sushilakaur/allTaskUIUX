@@ -19,7 +19,7 @@ body {
 svg {
   width: 30vw;
   height: auto;
-  padding: 25vh 0vw 3vh 5vw;
+  padding: 20vh 0vw 3vh 0vw;
 }
 
 .activee {
@@ -166,12 +166,14 @@ svg {
     width: 60%;
   }
   .section2 {
-    padding-top: 20vh;
+    padding-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 15vh;
   }
 
-  h1 {
-    font-size: 5rem !important;
+  .ml9 {
+    padding-top: 10vh !important;
+    margin-top: 3vh;
   }
 
   .phone {
@@ -179,5 +181,11 @@ svg {
   }
   .desk {
     display: none;
+  }
+  svg {
+    width: 50vw;
+    height: auto;
+    padding-top: 4%;
+    margin: 0vh 25vw !important;
   }
 }

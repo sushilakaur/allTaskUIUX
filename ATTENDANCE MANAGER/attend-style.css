@@ -19,18 +19,18 @@ body {
   text-align: left !important;
   float: center;
   color: #0b8d96;
-  font-size: 140%;
+  font-size: 1.2rem;
 }
 
 .container h1 {
   text-align: center;
   text-decoration: underline;
   color: #0b8d96;
-  font-size: 400%;
+  font-size: 5rem;
   font-family: sans-serif;
   font-weight: bold;
-  margin-top: 20%;
-  margin-bottom: 5%;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
 }
 
 .container h1:hover {
@@ -95,24 +95,22 @@ body {
 
 .text {
   border: #fff 2px solid;
-  font-size: 64px;
+  font-size: 1em;
   color: #fff;
   padding: 15px 15px;
 }
 
 .jumbotron {
   background-color: #0b8d96 !important;
-  width: 60%;
+  width: 80%;
   height: 50%;
   overflow: hidden;
-  align-items: center;
-  text-align: center;
+  margin: auto;
 }
 
 .section-2 {
   margin-top: 1%;
   margin-bottom: 100em;
-  margin-left: 20% !important;
 }
 
 label {
@@ -256,4 +254,35 @@ span {
   margin-inline-end: 255px;
   /* margin-top : 0px !important;
     align-content: center; */
+}
+
+@media screen and (max-width: 1000px) {
+  .container h1 {
+    color: #0b8d96;
+    font-size: 200%;
+    margin-top: 20vh;
+  }
+
+  .def p {
+    font-size: 1em;
+  }
+
+  .jumbotron {
+    width: 80%;
+    text-align: center;
+  }
+
+  .add {
+    margin-top: 2vh;
+  }
+  input {
+    font-size: 0.7rem !important;
+    margin-bottom: 1vh;
+  }
+
+  .attend {
+    height: 25vh;
+    width: 100%;
+    margin-top: 30vh;
+  }
 }

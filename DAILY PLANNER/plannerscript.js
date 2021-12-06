@@ -32,7 +32,7 @@ $("#lists").on("click","span",function(event){
 
 //add a new todo
 
- var input=document.querySelector("#kritikTodo input").addEventListener("keydown",function(e){
+ var input=document.querySelector("#ToDos input").addEventListener("keydown",function(e){
     if(e.keyCode===13){
         var todovalue= this.value;
         goals.push(todovalue);

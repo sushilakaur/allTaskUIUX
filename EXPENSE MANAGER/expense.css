@@ -4,17 +4,13 @@
 
 body {
   background-color: #f7f9f9;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .header-list {
   justify-content: space-around;
   height: 50vh;
 }
 
-.floatright img {
-  height: 40vh;
-  width: auto;
-}
 .def p {
   text-align: left !important;
   float: center;
@@ -52,13 +48,16 @@ body {
   background-repeat: no-repeat;
 }
 
-.img {
-  width: 100vw;
-  height: 65vh;
-  margin-bottom: 10%;
+.floatright img {
+  width: auto;
+  height: 30vh;
+  margin-bottom: 30%;
 }
 
-.expense {
+.expenseimg {
+  height: 55vh;
+  width: 100%;
+  margin-top: 10vh;
   background-image: url(pictures/bills-05.png);
 }
 
@@ -559,23 +558,26 @@ body {
   color: #f0624d;
 }
 
-/* .footer{
-    margin-top: 80%;
-    align-items: center;
-    text-align: center;
-    padding: 7%;
-    background-color:#0b8d96;
-    left: 0;
-    color:#F7F9F9;
-    font-size: 20px;
-}
-
-.footer h1{
-    padding-bottom: 3%;
-}  */
-
 .pie-chart {
   z-index: 1;
   margin-top: 150px;
   align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .container h1 {
+    color: #0b8d96;
+    font-size: 200%;
+    margin-top: 20vh;
+  }
+
+  .def p {
+    font-size: 1em;
+  }
+
+  .expenseimg {
+    height: 25vh;
+    width: 100%;
+    margin-top: 30vh;
+  }
 }
