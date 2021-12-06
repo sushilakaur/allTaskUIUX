@@ -15,6 +15,13 @@ body {
   width: 100vw;
   z-index: -1;
 }
+
+svg {
+  width: 30vw;
+  height: auto;
+  padding: 25vh 0vw 3vh 5vw;
+}
+
 .activee {
   background-color: #0b8d96 !important;
   width: 100%;
@@ -23,6 +30,7 @@ body {
 
 /* moving letters */
 .ml9 {
+  margin-left: 100px;
   position: relative;
   font-weight: 600;
   font-size: 4em;
@@ -46,7 +54,7 @@ body {
 }
 
 .header p {
-  /* margin-left: 100px; */
+  margin-left: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #f7f9f9;
@@ -54,7 +62,7 @@ body {
   font-size: 20px;
   letter-spacing: 2px;
   text-align: left;
-  margin-right: 55%;
+  margin-right: 5%;
 }
 
 .section2 {
