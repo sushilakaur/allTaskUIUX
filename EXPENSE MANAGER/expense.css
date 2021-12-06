@@ -274,14 +274,14 @@ body {
   color: #f0624d;
 }
 
-.right-container #expense-list ul.list li #delete {
+#delete {
   position: absolute;
   width: 20px;
   height: 20px;
   right: 20px;
   cursor: pointer;
   background-image: url("pictures/trash-07.png");
-  background-size: 20px 20px;
+  background-size: 20px auto;
   background-repeat: no-repeat;
 }
 
@@ -381,17 +381,6 @@ body {
   color: green;
 }
 
-.right-container #income-list ul.list li #delete {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  right: 20px;
-  cursor: pointer;
-  background-image: url("pictures/trash-07.png");
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-}
-
 /* //////// INVESTMENT ////////// */
 .right-container #investment-list {
   width: auto;
@@ -479,17 +468,6 @@ body {
   color: #fedc56;
 }
 
-.right-container #investment-list ul.list li #delete {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  right: 20px;
-  cursor: pointer;
-  background-image: url("pictures/trash-07.png");
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-}
-
 /* ////////// ALL ///////////// */
 .right-container #all-list {
   width: auto;
@@ -540,17 +518,6 @@ body {
   margin-bottom: 10px;
   word-wrap: break-word;
   font-family: sans-serif;
-}
-
-.right-container #all-list ul.list li #delete {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  right: 20px;
-  cursor: pointer;
-  background-image: url("pictures/trash-07.png");
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
 }
 
 .right-container #all-list ul.list li.expense-list {

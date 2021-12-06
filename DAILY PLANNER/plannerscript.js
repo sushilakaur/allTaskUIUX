@@ -4,17 +4,6 @@ $("#lists").on("click", "li", function(){
     $(this).toggleClass("completed");
 });
 
-//delete a todo
-// var todos=document.querySelectorAll(".todo_list span");
-
-// for(j=0;j<todos.length;j++){
-//     todos[j].addEventListener("click",function(event){
-        
-//         event.stopPropagation();
-//         this.parentElement.remove();
-//         //alert("Yyayy");
-//     })
-// }
 var goals=JSON.parse(localStorage.getItem("todoss"))||[];
 goals.forEach(element => {
     print(element);

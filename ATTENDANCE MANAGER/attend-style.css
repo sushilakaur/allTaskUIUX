@@ -230,7 +230,8 @@ span {
 }
 
 .headings {
-  /* margin-left: 50px; */
+  display: flex;
+  width: 70%;
   color: #f7f9f9;
   font-weight: bold;
   margin-top: 50px;
@@ -248,7 +249,7 @@ span {
   right: 20px;
   cursor: pointer;
   background-image: url("pictures/trash-07.png");
-  background-size: 25px 25px;
+  background-size: 25px auto;
   background-repeat: no-repeat;
   /* background-color: rgba(2, 67, 83, 0.589); */
   margin-inline-end: 255px;
